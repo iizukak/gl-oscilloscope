@@ -42,9 +42,9 @@
 #include "gl_processor.h" 
 
 // Audio Libraries
-#include "OscGen.h"
-#include "BiquadFilter.h"
-#include "ADSR.h"
+#include "Oscillators/OscGen.h"
+#include "Filters/BiquadFilter.h"
+#include "Utilities/ADSR.h"
 
 // Data structure holding our variables
 typedef struct {
